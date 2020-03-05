@@ -34,7 +34,7 @@ print(v[indices])
 #    for i in range(v.shape[0]):
 #       for j in range(i+1,v.shape[0]):
 #            if v[i]>v[j]:
-#               v[i],[j]=v[j],v[i]
+#               v[i],v[j]=v[j],v[i]
 #  return v
 #import time
 #v=np.random.randint(1,20,150)
