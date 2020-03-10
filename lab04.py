@@ -28,21 +28,21 @@ print(indices)
 print(v[indices])
 
 
-#Exi 4*-nem jó
-#def sort_vector(v):
-#   min=0
-#    for i in range(v.shape[0]):
-#       for j in range(i+1,v.shape[0]):
-#            if v[i]>v[j]:
-#               v[i],v[j]=v[j],v[i]
-#  return v
-#import time
-#v=np.random.randint(1,20,150)
-#print(v)
-#start=time.time()
-#v=sort_vector(v)
-#end=time.time()
-#print(end-start)
+#Exi 4
+def sort_vector(v):
+  min=0
+   for i in range(v.shape[0]):
+      for j in range(i+1,v.shape[0]):
+           if v[i]>v[j]:
+              v[i],v[j]=v[j],v[i]
+ return v
+import time
+v=np.random.randint(1,20,150)
+print(v)
+start=time.time()
+v=sort_vector(v)
+end=time.time()
+print(end-start)
 
 #Exi 5
 v=np.random.randint(1,10,120)
