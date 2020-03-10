@@ -48,7 +48,7 @@ print(end-start)
 v=np.random.randint(1,10,120)
 #indices=np.where((v>=3) &(v<=8))
 print(v)
-v[(v>=3) &(v<=8)]*=-1
+v[(v>=3) &(v<=8)]=-1
 print(v)
 
 #Exi 6
