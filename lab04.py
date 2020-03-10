@@ -27,7 +27,6 @@ print(min)
 print(indices)
 print(v[indices])
 
-
 #Exi 4
 def sort_vector(v):
   min=0
@@ -51,5 +50,9 @@ print(v)
 v[(v>=3) &(v<=8)]=-1
 print(v)
 
-#Exi 6
-v=np.random.randint(1,20,10)
+#Exi6
+v=np.random.randint(1,50,15)
+n=int(input("Kérek egy számot: "))
+elteres=abs(v-n)
+print(v)
+print(v[elteres==elteres.min()])
