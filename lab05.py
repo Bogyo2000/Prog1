@@ -81,7 +81,7 @@ def osztogatas(m):
     indexj=[]
     for j in range(1,m.shape[1]):
         for i in range(1,m.shape[0]):
-            if m[i][j]%i==0 and m[i][j]%j==0:
+            if m[i-1][j-1]%i==0 and m[i-1][j-1]%j==0:
                 indexi.append(i)
                 indexj.append(j)
     return indexi,indexj
